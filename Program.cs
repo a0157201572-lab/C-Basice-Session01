@@ -17,8 +17,17 @@
             book.Title = "C# programing";
             book.pages = 463;
             object obj = book;
-            Console.WriteLine(obj); 
-    #endregion
+            Console.WriteLine(obj);
+#endregion
+
+            #region Question 2
+            // 2- Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
+
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
+            #endregion
 
 
         }
