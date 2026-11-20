@@ -35,9 +35,28 @@
 
             //int pages = "464";  //invalid
             int pages = 464;  // valid
-          
+
 
             #endregion
+
+            #region Question 4
+            // 4- Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+
+            try
+            {
+                int result = 0/10;
+            }
+            catch(DataMisalignedException)
+            {
+                Console.WriteLine("CannotUnloadAppDomainException divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+            #endregion
+
 
         }
     }
